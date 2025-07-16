@@ -3,8 +3,8 @@
 An intelligent chatbot that allows users to ask natural language questions from uploaded PDF documents, providing context-aware answers using Google Gemini LLM and LangChain. It implements a Retrieval-Augmented Generation (RAG) pipeline with semantic search powered by FAISS and an interactive frontend built in Streamlit.
 # Features:
 - Upload any text-based PDF
-- Ask questions in plain English
-- Contextual answers via Gemini 1.5 Pro
+- Implemented full RAG pipeline using LangChain and Gemini.
+- Applied prompt engineering to avoid hallucination in responses.
 - Semantic document chunk retrieval using FAISS
 - Download Q&A history as .txt or .csv
 - Simple UI using Streamlit.
